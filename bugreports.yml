@@ -11,22 +11,23 @@
   expected-result: |
     Нет наложений текста или смещения элементов.
   actual-result: |
-    После второго товара, у всех остальных товаров количество смещается хаотично влево
-    Ошибка изображена на скриншоте assets/bug_cart.jpg
+    После второго товара, у всех остальных товаров количество начинает смещаться хаотично влево
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_cart.jpg
 
 - summary: |
-    Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
+    Ошибка загрузки скрипта оформления заказа
   environment: |
     Google Chrome	154.0.8037.98 (Официальная сборка) (64 бит)
     ОС Windows 10 Pro 22H2
   steps-to-reproduce: |
-    1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
-    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
+    1. Зайти на страницу интернет-магазина https://products-store.hexlet.app/
+    2. Добавить в корзину любое количество товаров
+    3. Открыть корзину
+    4. Нажать кнопку оформить заказ
   expected-result: |
-    В адресной строке url не меняется
-    Вкладки работают
+    Скрипт orders /api выдаёт статус 200 ОК в DevTools вкладка Network
+    Заказ успешно оформляется
   actual-result: |
-    При нажатии на week,month,all в urlHash появляется '!'
-    Вкладки не работают
-    Ошибка изображена на скриншоте assets/bug.png
+    Скрипт orders /api выдаёт ошибку 500 Internal Server Error в DevTools вкладка Network
+    Заказ не оформляется
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug%20orders%20api%20500%20DevTools.png
