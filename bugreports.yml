@@ -12,7 +12,7 @@
     Нет наложений текста или смещения элементов.
   actual-result: |
     После второго товара, у всех остальных товаров количество начинает смещаться хаотично влево
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_cart.jpg
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_cart.png
 
 - summary: |
     Ошибка загрузки скрипта оформления заказа
