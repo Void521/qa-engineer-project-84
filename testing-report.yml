@@ -1,48 +1,48 @@
 ---
- - summary: |
+- summary: |
     Проверка поиска товара по ключевому слову
   status: pass
 
- - summary: |
+- summary: |
     Проверка фильтрации товаров по параметрам
   status: pass
 
-  - summary: |
+- summary: |
     Проверка просмотра детальной информации о товаре
   status: pass
 
- - summary: |
+- summary: |
     Проверка добавления товара в корзину
   status: pass
 
-  - summary: |
+- summary: |
     Проверка просмотра содержимого корзины
   status: pass
 
-   - summary: |
+- summary: |
     Проверка переключения языка интерфейса
   status: pass
 
-   - summary: |
+- summary: |
     Проверка мобильной версии интернет-магазина
   status: fail
 
-   - summary: |
+- summary: |
     Проверка прямого доступа из сети Интернет без VPN
   status: pass
 
-   - summary: |
+- summary: |
     Проверка корректного отображения элементов в корзине с четыремя товарами
 
-   - summary: |
+- summary: |
     Проверка работы скрипта оформление заказа
   status: fail
 
-  - summary: |
+- summary: |
     Проверка работы закрытия окна "Заказ успешно оформлен"
   status: fail
 
-  - summary: |
+- summary: |
     Проверка корректного отображения элементов в окне "Заказ успешно формлен"
   status: fail
 
