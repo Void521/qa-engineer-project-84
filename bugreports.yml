@@ -12,7 +12,7 @@
     Нет наложений текста или смещения элементов
   actual-result: |
     После второго товара, у всех остальных товаров количество начинает смещаться хаотично влево
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_cart.png
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug_cart.png
 
 - summary: |
     Ошибка загрузки скрипта оформления заказа
@@ -30,7 +30,7 @@
   actual-result: |
     Скрипт orders /api выдаёт ошибку 500 Internal Server Error в DevTools вкладка Network
     Заказ не оформляется
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug%20orders%20api%20500%20DevTools.png
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug%20orders%20api%20500%20DevTools.png
 
 - summary: |
    Не корректное отображение элементов в корзине в мобильной версии
@@ -45,7 +45,7 @@
     Все элементы помещаются на экран не выходя за его пределы
   actual-result: |
     Цена товара выходит за границы экрана
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_mobil_version.png   
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug_mobil_version.png   
 
 - summary: |
    Не закрывается окно "Заказ успешно оформлен" через "крестик" в правом верхнем углу
@@ -77,7 +77,7 @@
     Нет наложений текста или смещения элементов
   actual-result: |
     После второго товара, у всех остальных товаров количество начинает смещаться хаотично влево
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_Order_placed_successfully.png
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug_Order_placed_successfully.png
 
 - summary: |
    Не корректное отображение элементов в меню "Язык"
@@ -93,6 +93,6 @@
   actual-result: |
     У английского языка не загружается флаг
     Название "английский" дублируется в правую сторону
-    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/bug_language.png
+    Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug_language.png
 
 
