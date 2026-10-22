@@ -11,7 +11,7 @@
 
 ## Стек
 
-Проект тестирования интернет-магазина: https://hexlet-products-store.vercel.app
+Проект тестирования интернет-магазина: https://products-store.hexlet.app/
 
 ## Содержание файлов
 
