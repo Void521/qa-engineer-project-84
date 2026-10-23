@@ -15,7 +15,7 @@
     Ошибка изображена на скриншоте https://github.com/Void521/qa-engineer-project-84/blob/main/screenshots/bug_cart.png
 
 - summary: |
-    Ошибка загрузки скрипта оформления заказа
+    Ошибка в ответе запроса при оформлении заказа
   environment: |
     Google Chrome	154.0.8037.98 (Официальная сборка) (64 бит)
     ОС Windows 10 Pro 22H2
