@@ -6,6 +6,19 @@
     ОС Windows 10 Pro 22H2
   steps-to-reproduce: |
     1. Зайти на страницу интернет-магазина https://products-store.hexlet.app/
+    2. Ввести в строку поиска ключевое слово "Lemon"
+  expected-result: |
+    Отображается список товаров, содержащих в названии или описании слово "Lemon"
+  actual-result: |
+    Отображается сообщение "Ничего не найдено!"
+    
+- summary: |
+   Не корректное отображениен элементов в корзине
+  environment: |
+    Google Chrome	154.0.8037.98 (Официальная сборка) (64 бит)
+    ОС Windows 10 Pro 22H2
+  steps-to-reproduce: |
+    1. Зайти на страницу интернет-магазина https://products-store.hexlet.app/
     2. Добавить в корзину четыре разных товара
     3. Открыть корзину
   expected-result: |
