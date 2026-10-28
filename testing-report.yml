@@ -5,11 +5,11 @@
 
 - summary: |
     Фильтрация товаров по одной категории
-  status: pass
+  status: fail
 
 - summary: |
     Фильтрация товаров по одному производителю (бренду)
-  status: pass
+  status: fail
 
 - summary: |
     Фильтрация товаров по диапазону цен
@@ -17,15 +17,15 @@
 
 - summary: |
     Фильтрация товаров по наличию ("В наличии")
-  status: pass
+  status: fail
 
 - summary: |
     Сочетание фильтров: Производитель + Наличие
-  status: pass
+  status: fail
 
 - summary: |
     Сочетание фильтров: Категория + Цена + Производитель
-  status: pass
+  status: fail
 
 - summary: |
     Просмотр детальной информации о товаре
